@@ -1,0 +1,17 @@
+{
+    "require": {
+        "grpc/grpc": "^1.38",
+        "google/protobuf": "^3.17",
+        "ext-grpc": "*"
+    }
+    ,
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    },
+    "autoload": {
+        "psr-4": {
+            "GPBMetadata\\": "GPBMetadata/",
+            "Todo\\": "Todo/"
+        }
+    }
+}
